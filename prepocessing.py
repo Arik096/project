@@ -2,7 +2,7 @@ import numpy as np
 import cv2 
   
 ########### taking image input ############
-img = cv2.imread('fig.jpg', 255) 
+img = cv2.imread('input.jpg', 255) 
 ###########################################
 
 ############# apply greyscal filter ########
