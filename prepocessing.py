@@ -4,7 +4,6 @@ from matplotlib.pyplot import imshow
   
 ########### taking image input ############
 img = cv2.imread('input.jpg', 255) 
-imshow(img)
 ###########################################
 
 ############# apply greyscal filter ########
