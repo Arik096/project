@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.10.4)  5 OCT 2019 03:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.10.12)  12 OCT 2019 17:43
 entering extended mode
 **./1103017.tex
 (1103017.tex
@@ -21,11 +21,11 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \bibindent=\dimen102
 ) ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
 y"
-Package: babel 2019/07/19 3.33 The Babel package
+Package: babel 2019/04/03 3.29 The Babel package
 
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
-File: switch.def 2019/07/19 3.33 Babel switching mechanism
+File: switch.def 2019/04/03 3.29 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -35,20 +35,18 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 571.
+(babel)             as the main language. Reported on input line 510.
  ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\nil.ldf"
-Language: nil 2019/07/19 3.33 Nil language
+Language: nil 2019/04/03 3.29 Nil language
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/07/19 3.33 Babel common definitions
+File: babel.def 2019/04/03 3.29 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
 \bbl@dirlevel=\count89
-)
-\l@nil=\language77
-))
+)))
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
 sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -218,11 +216,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
 y"
-Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
 ty"
-Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen111
 \captionmargin@=\dimen112
@@ -307,44 +305,44 @@ LaTeX Info: Redefining \nameref on input line 12.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <14.4> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 34.
 
-Overfull \hbox (8.47919pt too wide) in paragraph at lines 35--35
+Overfull \hbox (8.47919pt too wide) in paragraph at lines 39--39
 \OT1/cmr/bx/n/12 So, we need some robust techniques that can classify these com
 pound
- []
-
-
-Overfull \hbox (3.57086pt too wide) in paragraph at lines 39--39
-\OT1/cmr/bx/n/12 is one of the major examples of most fine reader that is comme
-rcially
  []
 
 [1
 
 {C:/Users/arik0/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (5.49568pt too wide) in paragraph at lines 41--41
+Overfull \hbox (3.57086pt too wide) in paragraph at lines 43--43
+\OT1/cmr/bx/n/12 is one of the major examples of most fine reader that is comme
+rcially
+ []
+
+
+Overfull \hbox (5.49568pt too wide) in paragraph at lines 45--45
 \OT1/cmr/bx/n/12 VPP and headline removal technique they segmented the document
 s
  []
 
 
-Overfull \hbox (48.65552pt too wide) in paragraph at lines 41--41
+Overfull \hbox (48.65552pt too wide) in paragraph at lines 45--45
 \OT1/cmr/bx/n/12 Depth First Search (DFS) algorithm for overlapped character se
 gmentation.
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
 ("C:\Users\arik0\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
 [2]
-Overfull \hbox (21.87634pt too wide) in paragraph at lines 62--62
+Overfull \hbox (21.87634pt too wide) in paragraph at lines 66--66
 \OT1/cmr/bx/n/12 line. Finally, we will analyze the connected component (each c
 haracter)
  []
@@ -353,87 +351,87 @@ haracter)
 <fig_1.png, id=53, 386.04225pt x 405.31425pt>
 File: fig_1.png Graphic file (type png)
 <use fig_1.png>
-Package pdftex.def Info: fig_1.png  used on input line 68.
+Package pdftex.def Info: fig_1.png  used on input line 72.
 (pdftex.def)             Requested size: 467.99881pt x 491.37183pt.
 
-Overfull \hbox (77.99881pt too wide) in paragraph at lines 68--69
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 76.
+(Font)              <6> on input line 80.
 [4
 
  <./fig_1.png>]
-Overfull \hbox (35.31726pt too wide) in paragraph at lines 79--80
+Overfull \hbox (35.31726pt too wide) in paragraph at lines 83--84
 \OT1/cmr/m/it/12 Correction Function of OCR: Stroke-Whitespace based Algorithmi
 c Approach,"
  []
 
 
-Overfull \hbox (18.54337pt too wide) in paragraph at lines 80--81
+Overfull \hbox (18.54337pt too wide) in paragraph at lines 84--85
 []\OT1/cmr/m/n/12 S. S. Goswami, \OT1/cmr/m/it/12 \Identification of Matra Regi
 on and Overlapping Characters
  []
 
 
-Overfull \hbox (25.61177pt too wide) in paragraph at lines 80--81
+Overfull \hbox (25.61177pt too wide) in paragraph at lines 84--85
 \OT1/cmr/m/it/12 for OCR of Printed Bengali Scripts," \OT1/cmr/m/n/12 Intellige
 nt Computing and Information
  []
 
 
-Overfull \hbox (65.4499pt too wide) in paragraph at lines 81--82
+Overfull \hbox (65.4499pt too wide) in paragraph at lines 85--86
 [][]$\OT1/cmtt/m/n/12 https : / / docs . opencv . org / 2 . 4 / doc / tutorials
  / imgproc / erosion _ dilatation /
  []
 
 
-Overfull \hbox (7.18777pt too wide) in paragraph at lines 84--85
+Overfull \hbox (7.18777pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 B. B. Chaudhuri and U. Pal, \A Complete Printed Bangla OCR Sy
 stem,"
  []
 
 
-Overfull \hbox (5.63628pt too wide) in paragraph at lines 86--87
+Overfull \hbox (5.63628pt too wide) in paragraph at lines 90--91
 []\OT1/cmr/m/n/12 S. M. M. Mahmud, N. Shahrier, A.S.M D. Hossain, M. T. M. Chow
 dhury,
  []
 
 
-Overfull \hbox (5.2986pt too wide) in paragraph at lines 86--87
+Overfull \hbox (5.2986pt too wide) in paragraph at lines 90--91
 \OT1/cmr/m/n/12 and M.A. Sattar, \OT1/cmr/m/it/12 \An Efficient Segmentation Sc
 heme for the Recognition
  []
 
 
-Overfull \hbox (13.5796pt too wide) in paragraph at lines 87--88
+Overfull \hbox (13.5796pt too wide) in paragraph at lines 91--92
 \OT1/cmr/m/it/12 Bangla Text Extraction and Recognition from Textual Image"\OT1
 /cmr/m/n/12 , Proceedings
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (1103017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `1103017.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 7036 strings out of 492935
- 109299 string characters out of 3126144
- 212355 words of memory out of 3000000
- 10851 multiletter control sequences out of 15000+200000
+ 7016 strings out of 492942
+ 108981 string characters out of 3126214
+ 210577 words of memory out of 3000000
+ 10824 multiletter control sequences out of 15000+200000
  9186 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,39p,909b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,39p,897b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/arik0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/arik0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/arik0/AppData/Local/Programs/MiKTeX 2.9/fo
@@ -441,7 +439,7 @@ nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/arik0/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arik0/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/arik
 0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on 1103017.pdf (5 pages, 128865 bytes).
+Output written on 1103017.pdf (5 pages, 130137 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
