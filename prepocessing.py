@@ -1,6 +1,5 @@
 import numpy as np 
 import cv2
-from matplotlib.pyplot import imshow
   
 ########### taking image input ############
 img = cv2.imread('input.jpg', 255) 
