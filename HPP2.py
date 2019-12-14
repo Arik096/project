@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 img = cv2.imread("bangla.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.figure(figsize=(10,10))
-plt.imshow(gray)
-plt.show()
 
 
 
@@ -50,6 +48,15 @@ for y in lowers:
 
 
 cv2.imwrite("result.png", rotated)
-plt.figure(figsize=(10,10))
-plt.imshow(rotated)
-plt.show()
+
+
+############ save output ##############
+k = cv2.waitKey(0) & 0xFF
+# press ESC to close  
+if k == 27:  
+    cv2.destroyAllWindows() 
+# press s to save the output     
+elif k == ord('s'):  
+    cv2.imwrite('result.png',rotated) 
+    cv2.destroyAllWindows() 
+#########################################
