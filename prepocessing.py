@@ -2,7 +2,7 @@ import numpy as np
 import cv2
   
 ########### taking image input ############
-img = cv2.imread('input.jpg', 255) 
+img = cv2.imread('bangla.jpg') 
 ###########################################
 
 ############# apply greyscal filter ########
@@ -46,6 +46,6 @@ if k == 27:
     cv2.destroyAllWindows() 
 # press s to save the output     
 elif k == ord('s'):  
-    cv2.imwrite('output.jpg',rotated) 
+    cv2.imwrite('output2.jpg',rotated) 
     cv2.destroyAllWindows() 
 #########################################
