@@ -47,7 +47,7 @@ for y in lowers:
     cv2.line(rotated, (0,y), (W, y), (0,255,0), 1)
 
 
-cv2.imwrite("result.png", rotated)
+cv2.imshow('image', rotated)
 
 
 ############ save output ##############
