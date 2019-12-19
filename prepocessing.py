@@ -5,13 +5,56 @@ import cv2
 img = cv2.imread('bangla.jpg') 
 ###########################################
 
+########## showing output  ##########
+cv2.imshow('image', img)
+#####################################
+############ save output ##############
+k = cv2.waitKey(0) & 0xFF
+# press ESC to close  
+if k == 27:  
+    cv2.destroyAllWindows() 
+# press s to save the output     
+elif k == ord('s'):  
+    cv2.imwrite('output2.jpg',img) 
+    cv2.destroyAllWindows() 
+#########################################
+
 ############# apply greyscal filter ########
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ############################################
+########## showing output  ##########
+cv2.imshow('image', img)
+#####################################
+############ save output ##############
+k = cv2.waitKey(0) & 0xFF
+# press ESC to close  
+if k == 27:  
+    cv2.destroyAllWindows() 
+# press s to save the output     
+elif k == ord('s'):  
+    cv2.imwrite('output2.jpg',img) 
+    cv2.destroyAllWindows() 
+#########################################
+
+
 
 ######## apply bilateral filter ############
 img = cv2.bilateralFilter(img, 15, 75, 75) 
 ############################################
+
+########## showing output  ##########
+cv2.imshow('image', img)
+#####################################
+############ save output ##############
+k = cv2.waitKey(0) & 0xFF
+# press ESC to close  
+if k == 27:  
+    cv2.destroyAllWindows() 
+# press s to save the output     
+elif k == ord('s'):  
+    cv2.imwrite('output2.jpg',img) 
+    cv2.destroyAllWindows() 
+#########################################
 
 ####### image binariazation ################
 img = cv2.bitwise_not(img)
