@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-im = cv2.imread('input_2.jpg')
+im = cv2.imread('output2.jpg')
 imgray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
 ret,thresh = cv2.threshold(imgray,127,255,0)
 im, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
@@ -9,13 +9,12 @@ im, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX
 cv2.drawContours(im,contours,-1,(255,0,0),2)
 
 for h,cnt in enumerate(contours):
-    mask = np.zeros(imgray.shape,np.uint8)
+    mask = np.zeros(im.shape,np.uint8)
     cv2.drawContours(mask,[cnt],0,255,-1)
     mean = cv2.mean(im,mask = mask)
 
     x, y, w, h = cv2.boundingRect(cnt)
-    print('X: ', x, 'Y: ', y, 'W: ', w, 'H: ', h)
-    cv2.rectangle(im, (x, y), (x + w, y + h), (255, 0, 0), 2)
+    cv2.rectangle(im, (x, y), (x + w, y + h), (255, 0, 0), 1)
 
 
 cv2.imshow('image', im)
