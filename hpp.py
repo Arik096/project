@@ -47,16 +47,7 @@ for y in lowers:
     cv2.line(rotated, (0,y), (W, y), (0,255,0), 1)
 
 
-cv2.imshow('image', rotated)
-
-
-############ save output ##############
-k = cv2.waitKey(0) & 0xFF
-# press ESC to close  
-if k == 27:  
-    cv2.destroyAllWindows() 
-# press s to save the output     
-elif k == ord('s'):  
-    cv2.imwrite('result.png',rotated) 
-    cv2.destroyAllWindows() 
-#########################################
+plt.figure(figsize=(10,10))
+plt.title('Original Image')
+plt.imshow(rotated)
+plt.show()
