@@ -33,4 +33,6 @@ for contour in contours:
     cv2.rectangle(image,(x,y),(x+w,y+h),(255,0,255),1)
 
 
-cv2.imwrite("character.png", image)
+plt.figure(figsize=(20,20))
+plt.imshow(image)
+plt.show()
