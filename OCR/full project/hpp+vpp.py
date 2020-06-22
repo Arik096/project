@@ -4,7 +4,7 @@ IMG_DIR = 'images/'
 
 
 'taking input'
-img = cv2.imread(IMG_DIR + 'bangla.jpg')
+img = cv2.imread(IMG_DIR + 'im6.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 "Finding threshold"
