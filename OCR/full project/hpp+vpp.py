@@ -4,7 +4,7 @@ IMG_DIR = 'images/'
 
 
 'taking input'
-img = cv2.imread(IMG_DIR + 'im6.jpg')
+img = cv2.imread(IMG_DIR + 'h1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 "Finding threshold"
@@ -40,9 +40,9 @@ def lines_seperator():
             x += 1
         #print(prev_x,x)
         if x - prev_x > 10:
-            cv2.line(output, (0, x),(WIDTH, x), (0,255,0),1)
+            cv2.line(output, (0, x),(WIDTH, x), (0,0,255),1)
             cv2.line(output, (0, prev_x),(WIDTH, prev_x), (0,255,0),1)
-            words_seperator(x, prev_x)
+            #words_seperator(x, prev_x)
 
 
 def words_seperator(lower, upper):
