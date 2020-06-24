@@ -7,7 +7,7 @@ IMG_DIR = 'images/'
 
 
 'taking input'
-image = cv2.imread(IMG_DIR + 'bangla.jpg')
+image = cv2.imread(IMG_DIR + 'h1.jpg')
 
 #plt.figure(figsize=(10,10))
 #plt.title('Original Image')
@@ -41,8 +41,7 @@ bilateral_image = cv2.bilateralFilter(gray_scale_image, 15, 75, 75)
 'applying bit plane slicing or getting binary image'
 binary_image = cv2.bitwise_not(bilateral_image)
 
-#plt.figure(figsize=(10,10))
-#plt.title('Binary Image')
+#plt.figure(figsize=(7,7))
 #plt.imshow(binary_image)
 #plt.show()
 
@@ -65,8 +64,7 @@ rotated_image = cv2.warpAffine(binary_image, M, (w, h),
 cv2.putText(rotated_image, "Angle: {:.2f} degrees".format(angle),
 	(10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
-#plt.figure(figsize=(10,10))
-#plt.title('Line Segmented Image')
+#plt.figure(figsize=(7,7))
 #plt.imshow(rotated_image)
 #plt.show()
 
