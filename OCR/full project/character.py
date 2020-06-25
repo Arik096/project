@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 IMG_DIR = 'images/'
 
 
-image = cv2.imread(IMG_DIR + 'im6.jpg')
+image = cv2.imread(IMG_DIR + 'img65.jpg')
 gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
 
@@ -33,6 +33,8 @@ for contour in contours:
     cv2.rectangle(image,(x,y),(x+w,y+h),(255,0,255),1)
 
 
-plt.figure(figsize=(20,20))
-plt.imshow(image)
-plt.show()
+#plt.figure(figsize=(20,20))
+#plt.imshow(image)
+#plt.show()
+
+cv2.imwrite("result65.png", image)
