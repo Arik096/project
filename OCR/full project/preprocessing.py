@@ -7,7 +7,7 @@ IMG_DIR = 'images/'
 
 
 'taking input'
-image = cv2.imread(IMG_DIR + 'h1.jpg')
+image = cv2.imread(IMG_DIR + 'img1.jpg')
 
 #plt.figure(figsize=(10,10))
 #plt.title('Original Image')
@@ -32,10 +32,10 @@ gray_scale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 'applying bilateral filter'
 bilateral_image = cv2.bilateralFilter(gray_scale_image, 15, 75, 75)
 
-#plt.figure(figsize=(10,10))
-#plt.title('Bilateral Image')
-#plt.imshow(gray_scale_image, camp='gray')
-#plt.show()
+plt.figure(figsize=(10,10))
+plt.title('Bilateral Image')
+plt.imshow(gray_scale_image, camp='gray')
+plt.show()
 
 
 'applying bit plane slicing or getting binary image'
