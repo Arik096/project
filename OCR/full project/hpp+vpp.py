@@ -4,7 +4,7 @@ IMG_DIR = 'images/'
 
 
 'taking input'
-img = cv2.imread(IMG_DIR + 'h1.jpg')
+img = cv2.imread(IMG_DIR + 'img1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 "Finding threshold"
@@ -20,7 +20,7 @@ ret = cv2.minAreaRect(pts)
 "Rotating image for alignment of box"
 M = cv2.getRotationMatrix2D((cx,cy), 0, 1.0)
 rotated = cv2.warpAffine(threshed, M, (img.shape[1], img.shape[0]))
-#output = cv2.warpAffine(threshed, M, (img.shape[1], img.shape[0]))
+output = cv2.warpAffine(threshed, M, (img.shape[1], img.shape[0]))
 
 def lines_seperator():
     hist2 = cv2.reduce(rotated,1, cv2.REDUCE_AVG).reshape(-1)
@@ -42,7 +42,7 @@ def lines_seperator():
         if x - prev_x > 10:
             cv2.line(output, (0, x),(WIDTH, x), (0,0,255),1)
             cv2.line(output, (0, prev_x),(WIDTH, prev_x), (0,255,0),1)
-            #words_seperator(x, prev_x)
+            words_seperator(x, prev_x)
 
 
 def words_seperator(lower, upper):
